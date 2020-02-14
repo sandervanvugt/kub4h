@@ -8,12 +8,12 @@ spec:
   - name: busy
     image: busybox
     command:
-      - sleep
-      - "3600" 
+    - sleep
+    - "3600"
     readinessProbe:
       periodSeconds: 10
       exec:
         command:
         - cat
         - /tmp/nothing
-    resources: {}
+
