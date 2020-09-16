@@ -62,3 +62,5 @@ sudo mv minikube /usr/local/bin
 # start minikube
 minikube start --memory 4096 --vm-driver=kvm2
 
+echo if this script ends with an error, restart the virtual machine
+echo and manually run minikube start --memory 4096 --vm-driver=kvm2
