@@ -8,5 +8,5 @@ spec:
     image: cirros
     command: ["/bin/sh", "-c", "env"]
     envFrom:
-      - configMapRef:
-          name: variables
+    - configMapRef:
+        name: variables
